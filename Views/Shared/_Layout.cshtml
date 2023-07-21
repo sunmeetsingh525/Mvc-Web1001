@@ -38,6 +38,8 @@
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
+
+        @await RenderSectionAsync("Name", false)
     </div>
 
     <footer class="border-top footer text-muted">
